@@ -55,6 +55,17 @@ reward:
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
 
+# Post word count, reading duration, site total word count.
+# Before you activate, please confirm that you have installed the hexo-wordcount plugin,
+# install the plugin command: `npm i --save hexo-wordcount`.
+# 文章字数统计、阅读时长、总字数统计
+# 激活前请确认你已经安装了 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
+wordCount:
+  enable: false
+  postWordCount: true
+  min2read: true
+  totalCount: true
+
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
