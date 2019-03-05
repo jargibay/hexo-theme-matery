@@ -31,7 +31,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: Dream Title
+  title: Misión en Mangundze
   text: Siempre fui menos que mi reputación.
 
 # Whether to display the musics.
@@ -80,7 +80,7 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: false
+  enable: true
   name: Github
   icon: fa-github-alt
   url:
@@ -98,7 +98,7 @@ socialLink:
 # 是否激活文章 TOC 功能，并配置TOC支持选中哪些标题类型，这是全局配置。
 # 可以在某篇文章的 Front-matter 中再加上`toc: false`，使该篇文章关闭TOC目录功能
 toc:
-  enable: true
+  enable: false
   heading: h2, h3, h4
 
 # Whether the code is broken.
