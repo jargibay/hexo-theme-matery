@@ -326,9 +326,9 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages: 
-- http://cdn.mangundze.org/000001.png
-- http://cdn.mangundze.org/000002.png
-- http://cdn.mangundze.org/000003.png
-- http://cdn.mangundze.org/000004.png
-- http://cdn.mangundze.org/000005.png
-- http://cdn.mangundze.org/000006.png
+- http://cdn.mangundze.org/000001.jpg
+- http://cdn.mangundze.org/000002.jpg
+- http://cdn.mangundze.org/000003.jpg
+- http://cdn.mangundze.org/000004.jpg
+- http://cdn.mangundze.org/000005.jpg
+- http://cdn.mangundze.org/000006.jpg
