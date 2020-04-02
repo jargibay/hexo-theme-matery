@@ -1,19 +1,15 @@
-/*全局基础样式*/
-/*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
     .container {
         width: 95%;
     }
 }
 
-/*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
     }
 }
 
-/*大屏幕下(桌面类)的样式*/
 @media only screen and (min-width: 993px) {
     .container {
         width: 85%;
@@ -163,7 +159,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #00baff 0%, #50c2ec 100%);
 }
 
 .text-color {
@@ -1674,7 +1670,7 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    background: linear-gradient(to bottom right, #50c2ec 0%, #50c2ec 100%);
     width: 48px;
     height: 48px;
 }
