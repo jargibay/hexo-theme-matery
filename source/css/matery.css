@@ -15,7 +15,6 @@
         width: 85%;
         max-width: 1125px;
     }
-
     .post-container {
         width: 90%;
         margin: 0 auto;
@@ -163,7 +162,7 @@ mark {
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #00baff !important;
 }
 
 .white-color {
@@ -175,7 +174,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #ffbb33 0%, #c28409 100%);
     opacity: 0.8;
 }
 
@@ -337,7 +336,9 @@ header .go-back i {
     line-height: 56px;
 }
 
+
 /* 背景图效果. */
+
 .bg-cover {
     position: relative;
     display: flex;
@@ -364,7 +365,8 @@ header .go-back i {
     animation: rainbow 60s infinite;
 }
 
-.bg-cover:before, .bg-cover:after {
+.bg-cover:before,
+.bg-cover:after {
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -403,36 +405,42 @@ header .go-back i {
 @-webkit-keyframes rainbow {
     0%,
     100% {
+        opacity: 0.3;
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
     }
     16% {
+        opacity: 0.3;
         background: rgba(132, 13, 121, 0.75);
         background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
     }
     32% {
+        opacity: 0.3;
         background: rgba(239, 83, 80, 0.75);
         background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
     }
     48% {
+        opacity: 0.3;
         background: rgba(255, 87, 34, 0.75);
         background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
     }
     64% {
+        opacity: 0.3;
         background: rgba(255, 160, 0, 0.75);
         background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
     }
     80% {
+        opacity: 0.3;
         background: rgba(233, 30, 99, 0.75);
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
@@ -443,36 +451,42 @@ header .go-back i {
 @keyframes rainbow {
     0%,
     100% {
+        opacity: 0.3;
         background: rgba(156, 39, 176, 0.75);
         background: linear-gradient(45deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(156, 39, 176, 0.75) 0%, rgba(156, 39, 176, 0.65) 100%);
     }
     16% {
+        opacity: 0.3;
         background: rgba(132, 13, 121, 0.75);
         background: linear-gradient(45deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(132, 13, 121, 0.75) 0%, rgba(132, 13, 121, 0.65) 100%);
     }
     32% {
+        opacity: 0.3;
         background: rgba(239, 83, 80, 0.75);
         background: linear-gradient(45deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(239, 83, 80, 0.75) 0%, rgba(239, 83, 80, 0.65) 100%);
     }
     48% {
+        opacity: 0.3;
         background: rgba(255, 87, 34, 0.75);
         background: linear-gradient(45deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 87, 34, 0.75) 0%, rgba(255, 87, 34, 0.65) 100%);
     }
     64% {
+        opacity: 0.3;
         background: rgba(255, 160, 0, 0.75);
         background: linear-gradient(45deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 112, 66, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(255, 160, 0, 0.75) 0%, rgba(255, 160, 0, 0.65) 100%);
     }
     80% {
+        opacity: 0.3;
         background: rgba(233, 30, 99, 0.75);
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
@@ -523,7 +537,7 @@ header .go-back i {
 
 .music,
 .dplayer-video {
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,.2), 0 10px 20px -12px rgba(0,0,0,.5) !important;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 10px 20px -12px rgba(0, 0, 0, .5) !important;
 }
 
 #recommend-sections {
@@ -548,7 +562,9 @@ header .go-back i {
     }
 }
 
+
 /*中等屏幕下(平板类)的样式*/
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .index-card .card .card-content {
         padding: 20px 20px;
@@ -664,7 +680,9 @@ header .go-back i {
     margin-top: -10px;
 }
 
+
 /*文章列表卡片各样式*/
+
 #articles {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -801,14 +819,18 @@ article .article-tags .chip {
     color: #999 !important;
 }
 
+
 /*文章详情样式*/
+
 #artDetail {
     margin-top: -60px;
 }
 
+
 /* 修改小屏幕下文章详情table样式. */
+
 @media only screen and (max-width: 550px) {
-    #articleContent table{
+    #articleContent table {
         table-layout: fixed;
     }
 }
@@ -821,9 +843,7 @@ article .article-tags .chip {
 }
 
 #artDetail .card {
-    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
-    0 5px 15px rgba(0, 0, 0, .07),
-    0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15), 0 5px 15px rgba(0, 0, 0, .07), 0 2px 5px -5px rgba(0, 0, 0, .1) !important;
 }
 
 #artDetail .tag-cate {
@@ -913,7 +933,6 @@ article .article-tags .chip {
     #artDetail .article-card-content {
         padding: 0 30px 20px 32px;
     }
-
     #artDetail .article-info {
         padding: 15px 20px 0 28px;
         margin-bottom: -5px;
@@ -957,7 +976,7 @@ article .article-tags .chip {
     color: #42b983;
     font-weight: 500;
     text-decoration: underline;
-    word-wrap:break-word;
+    word-wrap: break-word;
 }
 
 #articleContent .img-item {
@@ -973,7 +992,7 @@ article .article-tags .chip {
 #articleContent video {
     display: block;
     margin: 30px auto;
-    box-shadow: 0 5px 35px 0 rgba(0,0,0,.2), 0 10px 35px -11px rgba(0,0,0,.6);
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, .2), 0 10px 35px -11px rgba(0, 0, 0, .6);
     cursor: pointer;
 }
 
@@ -999,12 +1018,15 @@ article .article-tags .chip {
     list-style-type: circle;
 }
 
-#articleContent table, th, td {
+#articleContent table,
+th,
+td {
     padding: 12px 13px;
     border: 1px solid #dfe2e5;
 }
 
-table tr:nth-child(2n), thead {
+table tr:nth-child(2n),
+thead {
     background-color: #fafafa;
 }
 
@@ -1017,7 +1039,8 @@ table tr:nth-child(2n), thead {
     min-width: 80px;
 }
 
-#articleContent [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+#articleContent [type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
     position: inherit;
     margin-left: -1.3rem;
     margin-right: 0.4rem;
@@ -1103,7 +1126,9 @@ table tr:nth-child(2n), thead {
     color: #fff;
 }
 
+
 /* archive page. */
+
 #cd-timeline .year {
     position: relative;
     width: 80px;
@@ -1169,17 +1194,14 @@ table tr:nth-child(2n), thead {
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
     #cd-timeline::before {
         left: 50%;
         margin-left: -2px;
     }
-
     #cd-timeline .year {
         margin: 10px 0 50px -40px;
         padding: 22px 11px;
     }
-
     #cd-timeline .month {
         margin: 10px 0 30px -30px;
         padding: 14px 16px;
@@ -1209,11 +1231,9 @@ table tr:nth-child(2n), thead {
     .cd-timeline-block {
         margin: 1em 0;
     }
-
     .cd-timeline-block:first-child {
         margin-top: 0;
     }
-
     .cd-timeline-block:last-child {
         margin-bottom: 0;
     }
@@ -1239,11 +1259,9 @@ table tr:nth-child(2n), thead {
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
-
     .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden;
     }
-
     .cssanimations .cd-timeline-img.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-1 0.6s;
@@ -1288,11 +1306,9 @@ table tr:nth-child(2n), thead {
     .cd-timeline-content h2 {
         font-size: 1.25rem;
     }
-
     .cd-timeline-content p {
         font-size: 1rem;
     }
-
     .cd-timeline-content .cd-read-more,
     .cd-timeline-content .cd-date {
         font-size: 0.875rem;
@@ -1304,37 +1320,29 @@ table tr:nth-child(2n), thead {
         margin-left: 0;
         padding: 0;
         width: 45%;
-
     }
-
     .cd-timeline-content::before {
         top: 24px;
         left: 100%;
     }
-
     .cd-timeline-content .cd-read-more {
         float: left;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content {
         float: right;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
         top: 24px;
         left: auto;
         right: 100%;
         border-color: #ffa726;
     }
-
     .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
         float: right;
     }
-
     .cssanimations .cd-timeline-content.is-hidden {
         visibility: hidden;
     }
-
     .cssanimations .cd-timeline-content.bounce-in {
         visibility: visible;
         -webkit-animation: cd-bounce-2 0.6s;
@@ -1342,6 +1350,7 @@ table tr:nth-child(2n), thead {
         animation: cd-bounce-2 0.6s;
     }
 }
+
 
 /* about page styles. */
 
@@ -1398,7 +1407,8 @@ table tr:nth-child(2n), thead {
     padding: 0;
     color: #fff;
     border: 1px solid #0f9d58;
-    background: radial-gradient(#4cbf30, #0f9d58);;
+    background: radial-gradient(#4cbf30, #0f9d58);
+    ;
     font-size: 0.9rem;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .21), 0 2px 3px rgba(0, 0, 0, .1);
@@ -1450,7 +1460,8 @@ table tr:nth-child(2n), thead {
     padding: 3.8rem 1.5rem 0.8rem 1.5rem;
 }
 
-.post-charts, .title,
+.post-charts,
+.title,
 .my-projects .title,
 .my-skills .title,
 .my-gallery .title {
@@ -1573,7 +1584,8 @@ table tr:nth-child(2n), thead {
 
 .other-skills .chip:hover {
     color: #fff;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);;
+    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    ;
     border: 1px solid #4cbf30;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .25)
 }
@@ -1595,7 +1607,9 @@ table tr:nth-child(2n), thead {
     cursor: pointer;
 }
 
+
 /*尾部样式*/
+
 footer {
     padding-bottom: 1px;
 }
@@ -1613,7 +1627,9 @@ footer .copy-right {
     color: #dbdbdb;
 }
 
+
 /*搜索层样式*/
+
 #searchIcon {
     font-size: 1.2rem;
 }
@@ -1658,7 +1674,9 @@ footer .copy-right {
     white-space: pre-wrap;
 }
 
+
 /*回到顶部按钮样式*/
+
 .top-scroll {
     display: none;
     position: fixed;
@@ -1702,7 +1720,6 @@ footer .copy-right {
         float: left;
         width: 100%;
     }
-
     .custom-card {
         padding: 0 2px !important;
     }
@@ -1717,7 +1734,7 @@ footer .copy-right {
 }
 
 .img-shadow {
-    box-shadow: 0 5px 25px 0 rgba(0,0,0,.2), 0 10px 30px -11px rgba(0,0,0,.6)
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, .2), 0 10px 30px -11px rgba(0, 0, 0, .6)
 }
 
 .img-margin {
