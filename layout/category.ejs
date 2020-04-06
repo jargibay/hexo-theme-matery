@@ -47,6 +47,8 @@
                                 <%- strip_html(post.content).substring(0, 70) %>
                             <% } %>
                         </div>
+
+                        <% if (config.publishInfo) { %>
                         <div class="publish-info">
                             <span class="publish-date">
                                 <i class="fa fa-clock-o fa-fw icon-date"></i><%= date(post.date, config.date_format) %>
@@ -68,6 +70,7 @@
                                 <% } %>
                             </span>
                         </div>
+                        <% } %>
                     </div>
 
                     <% if (post.tags && post.tags.length) { %>
