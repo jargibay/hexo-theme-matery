@@ -4,15 +4,10 @@ menu:
   Index:
     url: /
     icon: fa-home
-  Sobre Nosotros:
-    url: /about
-    icon: fa-user-circle-o
-  Proyectos:
-    url: /categories/Proyectos/
-    icon: fa-tasks
-  Contacto:
-    url: /to-be-defined/
-    icon: fa-id-card
+  Categories:
+    url:
+    icon:
+    categories: true
   Donar:
     url: /donar/
     icon: fa-money
