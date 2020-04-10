@@ -1,12 +1,11 @@
 # main menu navigation url and icon
 # 配置菜单导航的名称、路径和图标icon.
 menu:
-  Index:
+  Casa:
     url: /
     icon: fa-home
   Categories:
-    url:
-    icon:
+    icon: fa-tasks
     categories: true
   Donar:
     url: /donar/
@@ -24,7 +23,7 @@ cover:
 dream:
   enable: true
   showTitle: false
-  title: Misión en Mangundze
+  title: Missão en Mangundze
   text: Siempre fui menos que mi reputación.
 
 # Whether to display the musics.
@@ -182,8 +181,8 @@ googleAnalytics:
 libs:
   css:
     fontAwesome: /libs/awesome/css/font-awesome.min.css # V4.7.0
-    materialize: /libs/materialize/materialize.min.css # 1.0.0
-    aos: /libs/aos/aos.css
+    materialize: https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css # /libs/materialize/materialize.min.css # 1.0.0
+    aos: https://unpkg.com/aos@2.3.1/dist/aos.css # /libs/aos/aos.css
     animate: /libs/animate/animate.min.css # V3.5.1
     lightgallery: /libs/lightGallery/css/lightgallery.min.css # V1.6.11
     aplayer: /libs/aplayer/APlayer.min.css
@@ -192,10 +191,10 @@ libs:
     jqcloud: /libs/jqcloud/jqcloud.css
     tocbot: /libs/tocbot/tocbot.css
   js:
-    jquery: /libs/jquery/jquery-2.2.0.min.js
-    materialize: /libs/materialize/materialize.min.js # 1.0.0
+    jquery: https://code.jquery.com/jquery-3.4.1.min.js # /libs/jquery/jquery-2.2.0.min.js
+    materialize: https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js # /libs/materialize/materialize.min.js # 1.0.0
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
-    aos: /libs/aos/aos.js
+    aos: https://unpkg.com/aos@2.3.1/dist/aos.js # /libs/aos/aos.js
     scrollProgress: /libs/scrollprogress/scrollProgress.min.js
     lightgallery: /libs/lightGallery/js/lightgallery-all.min.js # V1.6.11
     clicklove: /libs/others/clicklove.js
