@@ -1,0 +1,70 @@
+// Config
+support-for-ie = false
+vendor-prefixes = webkit moz ms official
+
+// Colors
+color-default = #555
+if hexo-config("customize.theme_color")
+    color-theme = convert(hexo-config("customize.theme_color"))
+else
+    color-theme = #00baff
+color-grey = #aaa
+color-header-background = #234678 // Controla el fondo del logo.
+color-main-background = #fff // Controla el fondo de los posts
+color-body-background = #b1cadc // Controla el lateral, desde donde termina el header.
+color-code-background = #f8f8f8 // Lo agregue. Controla el fondo de los bloques de código.
+color-mobile-nav-background = #191919 // No controla nada. Ver si lo eliminamos.
+article-color-border = #4d7aa1 // #b1dadc  //ddd //controla la linea que separa el articulo del boton compartir.
+widget-color-border = white  //ddd //controla la linea que separa el articulo del boton compartir.
+color-border-light = #e2eef5 //eee
+color-nav-foreground = rgba(255,255,255,.9) // Opciones de Menu y Subtitulo.
+color-nav-background = #00baff // Maneja el fondo de los menues.
+color-nav-hover-background = rgba(0,0,0,0.1)
+color-sidebar-background = #e2eef5 // Este color solo lo toma para mobile.
+color-sidebar-text = #777
+color-sidebar-text-dark = #444
+color-footer-background = #234678 // Controla la barra del footer
+
+// Fonts
+font-sans = "Titillium Web", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif
+font-serif = Georgia, "Times New Roman", serif
+font-mono = "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
+font-icon-profile-size = 24px
+font-size = 14px
+font-size-article = 18px
+line-height = 1.6em
+line-height-title = 1.3em
+
+// Header
+logo-url = hexo-config("customize.logo.url")
+logo-width = 60px // + hexo-config("customize.logo.width")
+logo-height = 60px // + hexo-config("customize.logo.height")
+header-background-image = hexo-config("customize.header-background-image")
+header-background-image-lowres = hexo-config("customize.header-background-image-lowres")
+
+// Sidebar
+sidebar = hexo-config("customize.sidebar")
+sidebar-width = 340px
+sidebar-toggle-width = 50px
+
+// Layout
+container-padding = 20px
+container-inner-min-width = 320px
+container-inner-max-width = 1120px
+article-padding = 20px
+nav-height = 60px
+main-nav-child-width = 180px
+mobile-nav-width = 280px
+thumbnail-default = "images/thumb-default.png"
+thumbnail-default-small = "images/thumb-default-small.png"
+preloader = "images/preloader.gif"
+preloader-2x = "images/preloader@2x.gif"
+
+// Code Highlight
+highlight = hexo-config("customize.highlight") || "tomorrow"
+
+// Miscellaneous
+color-twitter = #00aced
+color-facebook = #3b5998
+color-pinterest = #cb2027
+color-google = #dd4b39

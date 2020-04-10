@@ -1,4 +1,10 @@
 $(function() {
+
+    // Nav bar toggle
+    $('#main-nav-toggle').on('click', function () {
+        $('.nav-container-inner').slideToggle();
+    });
+
     /**
      * 添加文章卡片hover效果.
      */
