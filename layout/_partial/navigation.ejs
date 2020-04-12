@@ -1,21 +1,20 @@
 <a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fa fa-navicon"></i></a>
-<div class="dropdown-content">
-    <%- list_categories({ depth: 2,
-                                  style: 'list',
-                                  id: 'categories',
-                                  class: 'dropdown',
-                                  show_count: false,
-                                }) %>
-</div>
+<!-- Dropdown Structure -->
+<ul id='Nosotros' class='dropdown-content bg-color'>
+    <li class="white-color"><a href="/about/">¿Quiénes somos?</a></li>
+    <li class="white-color"><a href="/Historia-de-la-Mision-Mangundze/">Nuestra Historia</a></li>
+    <li class="white-color"><a href="/Nuestro-Trabajo/">¿Qué hacemos?</a></li>
+    <li><a href="/Donde-Estamos/" class="white-color">¿Donde estamos?</a></li>
+</ul>
 
 <div class="right">
     <ul class="left">
-        <% Object.keys(theme.menu).forEach(function(key) { %>
-            <% if(theme.menu[key].categories) { %>
+        <% Object.keys(config.menu).forEach(function(key) { %>
+            <% if(config.menu[key].dropdownMenuId) { %>
 
                 <!-- Dropdown Trigger -->
                 <li class="hide-on-med-and-down">
-                    <a class="dropdown-trigger" href="#" data-target="categories">
+                    <a class="dropdown-trigger" href="#" data-target="<%- config.menu[key].dropdownMenuId %>">
                         <span><%- key %></span>
                         <i class="material-icons right">arrow_drop_down</i>
                     </a>
@@ -23,9 +22,9 @@
 
                 <% } else { %>
                     <li class="hide-on-med-and-down">
-                        <a href="<%- theme.menu[key].url %>" class="waves-effect waves-light">
-                            <% if (theme.menu[key].icon && theme.menu[key].icon.length > 0) { %>
-                                <i class="fa <%- theme.menu[key].icon %>"></i>
+                        <a href="<%- config.menu[key].url %>" class="waves-effect waves-light">
+                            <% if (config.menu[key].icon && config.menu[key].icon.length > 0) { %>
+                                <i class="fa <%- config.menu[key].icon %>"></i>
                                 <% } %>
                                     <span><%- key %></span>
                         </a>
