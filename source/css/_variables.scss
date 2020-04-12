@@ -1,0 +1,98 @@
+// ==========================================================================
+// Materialize variables
+// ==========================================================================
+//
+// Table of Contents:
+//
+//  1. Colors
+//  2. Badges
+//  3. Buttons
+//  4. Cards
+//  5. Carousel
+//  6. Collapsible
+//  7. Chips
+//  8. Date + Time Picker
+//  9. Dropdown
+//  10. Forms
+//  11. Global
+//  12. Grid
+//  13. Navigation Bar
+//  14. Side Navigation
+//  15. Photo Slider
+//  16. Spinners | Loaders
+//  17. Tabs
+//  18. Tables
+//  19. Toasts
+//  20. Typography
+//  21. Footer
+//  22. Flow Text
+//  23. Collections
+//  24. Progress Bar
+// 1. Colors
+// ==========================================================================
+$primary-color: color("materialize-red") !default;
+$secondary-color: #00baff !default;
+$success-color: color("green", "base") !default;
+$error-color: color("red", "base") !default;
+$link-color: color("light-blue", "darken-1") !default;
+// 9. Dropdown
+// ==========================================================================
+$dropdown-bg-color: #fff !default;
+$dropdown-hover-bg-color: #eee !default;
+$dropdown-color: $secondary-color !default;
+$dropdown-item-height: 50px !default;
+// 11. Global
+// ==========================================================================
+// Media Query Ranges
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+$small-screen: 600px !default;
+$medium-screen: 992px !default;
+$large-screen: 1200px !default;
+$medium-and-up: "only screen and (min-width : #{$small-screen-up})" !default;
+$large-and-up: "only screen and (min-width : #{$medium-screen-up})" !default;
+$extra-large-and-up: "only screen and (min-width : #{$large-screen-up})" !default;
+$small-and-down: "only screen and (max-width : #{$small-screen})" !default;
+$medium-and-down: "only screen and (max-width : #{$medium-screen})" !default;
+$medium-only: "only screen and (min-width : #{$small-screen-up}) and (max-width : #{$medium-screen})" !default;
+// 12. Grid
+// ==========================================================================
+$num-cols: 12 !default;
+$gutter-width: 1.5rem !default;
+$element-top-margin: $gutter-width/3 !default;
+$element-bottom-margin: ($gutter-width*2)/3 !default;
+// 18. Tables
+// ==========================================================================
+$table-border-color: rgba(0, 0, 0, .12) !default;
+$table-striped-color: rgba(242, 242, 242, 0.5) !default;
+// 20. Typography
+// ==========================================================================
+$font-stack: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Oxygen-Sans,
+Ubuntu,
+Cantarell,
+"Helvetica Neue",
+sans-serif !default;
+$off-black: rgba(0, 0, 0, 0.87) !default;
+// 21. Footer
+// ==========================================================================
+$footer-font-color: #fff !default;
+$footer-bg-color: $primary-color !default;
+$footer-copyright-font-color: rgba(255, 255, 255, .8) !default;
+$footer-copyright-bg-color: rgba(51, 51, 51, .08) !default;
+// 23. Collections
+// ==========================================================================
+$collection-border-color: #e0e0e0 !default;
+$collection-bg-color: #fff !default;
+$collection-active-bg-color: $secondary-color !default;
+$collection-active-color: lighten($secondary-color, 55%) !default;
+$collection-hover-bg-color: #ddd !default;
+$collection-link-color: $secondary-color !default;
+$collection-line-height: 1.5rem !default;
+// 24. Progress Bar
+// ==========================================================================
+$progress-bar-color: $secondary-color !default;
