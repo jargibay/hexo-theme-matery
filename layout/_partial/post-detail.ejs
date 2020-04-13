@@ -13,13 +13,15 @@
                         <% }); %>
                     </div>
                     <% } else { %>
+<!--
                           <div class="article-tag">
                             <span class="chip bg-color"><%- __("notag")  %></span>
                           </div>
+-->
                     <% } %>
                 </div>
                 <div class="col s5 right-align">
-                    <% if (page.categories && page.categories.length > 0) { %>
+                    <% if (false && page.categories && page.categories.length > 0) { %>
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         <% page.categories.forEach(category => { %>
@@ -31,7 +33,7 @@
                     <% } %>
                 </div>
             </div>
-
+<!--
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i><%- __('publishDate') %>:&nbsp;&nbsp;
@@ -61,8 +63,11 @@
                     </div>
 				<% } %>
             </div>
+-->
         </div>
+<!--
         <hr class="clearfix">
+-->
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <%- page.content %>
@@ -74,7 +79,7 @@
             <% } %>
 
             <%- partial('_partial/share') %>
-
+<!--
             <div class="reprint">
                 <p>
                     <span class="reprint-tip">
@@ -85,6 +90,7 @@
                     <a href="<%- url_for(page.path) %>" class="b-link-green"><%= page.title %></a>
                 </p>
             </div>
+-->
         </div>
     </div>
 
