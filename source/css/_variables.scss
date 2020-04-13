@@ -30,7 +30,7 @@
 //  24. Progress Bar
 // 1. Colors
 // ==========================================================================
-$primary-color: color("materialize-red") !default;
+$primary-color: color("materialize-blue") !default;
 $secondary-color: #00baff !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
@@ -62,6 +62,15 @@ $num-cols: 12 !default;
 $gutter-width: 1.5rem !default;
 $element-top-margin: $gutter-width/3 !default;
 $element-bottom-margin: ($gutter-width*2)/3 !default;
+// 13. Navigation Bar
+// ==========================================================================
+$navbar-height: 75px !default;
+$navbar-line-height: $navbar-height !default;
+$navbar-height-mobile: 55px !default;
+$navbar-line-height-mobile: $navbar-height-mobile !default;
+$navbar-font-size: 1rem !default;
+$navbar-font-color: #fff !default;
+$navbar-brand-font-size: 2.1rem !default;
 // 18. Tables
 // ==========================================================================
 $table-border-color: rgba(0, 0, 0, .12) !default;
