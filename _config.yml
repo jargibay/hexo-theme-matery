@@ -53,7 +53,7 @@ recommend:
 # Configure website favicon and LOGO
 # 配置网站favicon和网站LOGO
 favicon: /media/logo/favicon.ico
-logo: http://cdn.mangundze.org/mision-mangundze-logo.jpg
+logo: https://cdn.mangundze.org/mision-mangundze-logo.jpg
 
 # The configuration of the second button in the home banner,
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
@@ -196,9 +196,9 @@ libs:
     tocbot: /libs/tocbot/tocbot.min.js
 # The post featured images that needs to be displayed when there is no image.
 featureImages: 
-- http://cdn.mangundze.org/000001.jpg
-- http://cdn.mangundze.org/000002.jpg
-- http://cdn.mangundze.org/000003.jpg
-- http://cdn.mangundze.org/000004.jpg
-- http://cdn.mangundze.org/000005.jpg
-- http://cdn.mangundze.org/000006.jpg
+- https://cdn.mangundze.org/000001.jpg
+- https://cdn.mangundze.org/000002.jpg
+- https://cdn.mangundze.org/000003.jpg
+- https://cdn.mangundze.org/000004.jpg
+- https://cdn.mangundze.org/000005.jpg
+- https://cdn.mangundze.org/000006.jpg
