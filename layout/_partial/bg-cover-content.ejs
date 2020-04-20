@@ -4,22 +4,22 @@
             <div class="title center-align">
                 <% if (config.subtitle && config.subtitle.length > 0) { %>
                     <%= config.subtitle %>
-                <% } else { %>
-                    subtitle
-                <% } %>
+                        <% } else { %>
+                            subtitle
+                            <% } %>
             </div>
 
             <div class="description center-align">
                 <% if (config.description && config.description.length > 0) { %>
                     <%= config.description %>
-                <% } else { %>
-                    This is your root _config.yml 'description' value.
-                <% } %>
+                        <% } else { %>
+                            This is your root _config.yml 'description' value.
+                            <% } %>
             </div>
         </div>
     </div>
 </div>
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(http://cdn.mangundze.org/banner/' + new Date().getDay() + '.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(https://cdn.mangundze.org/banner/' + new Date().getDay() + '.jpg)');
 </script>
