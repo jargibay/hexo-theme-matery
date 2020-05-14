@@ -12,7 +12,7 @@ dream:
   enable: true
   showTitle: false
   title: Mangundze Mission
-  text: Siempre fui menos que mi reputación.
+  text: "The King will reply, \"Truly I tell you, whatever you did for one of the least of these brothers and sisters of mine, you did for me.\" Matthew 25, 40"
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -96,7 +96,7 @@ reward:
 copyright:
   enable: true
   minCharNumber: 120
-  description: Copyright 2020, Associação Benéfica Nyikani Mavoko
+  description: Copyright 2020, Mission Mangundze
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
 # Considering that the mathjax loading is time consuming,
@@ -162,7 +162,7 @@ verifyPassword:
 # Add google analytics configuration
 googleAnalytics:
   enable: true
-  id:
+  id: 110-142-4807
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.
