@@ -59,7 +59,7 @@ logo: https://cdn.mangundze.org/mision-mangundze-logo.jpg
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 indexbtn:
   enable: true
-  name: Sobre Nosotros
+  name: Sobre Nos
   icon: fa-user-circle-o
   url: /about/
 
